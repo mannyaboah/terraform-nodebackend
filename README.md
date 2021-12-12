@@ -1,4 +1,4 @@
-# terrafom-space-invaders-gke
+# terrafom-node-apps-gke
 
 ## To run:
 
@@ -15,16 +15,18 @@ terraform plan
 terraform apply -auto-approve
 
 ## The followng will be created:
-GKE Cluster
+- GKE Cluster
 
-Kubernetes namespace
+- Kubernetes namespace
 
-Kubernetes deployment
+- Kubernetes nodebacked app deployment
 
-Kubernetes service
+- Kubernetes nodebacked app ClusterIp
+
+- Kubernetes nodeFrontend app deployment
+
+- Kubernetes nodebacked app load balancer
 
 
 ## To delete everything run:
 terraform destroy -auto-approve
-
-# terraform-nodebackend

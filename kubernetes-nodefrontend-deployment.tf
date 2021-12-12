@@ -1,4 +1,4 @@
-resource "kubernetes_deployment" "nf-deployment" {
+resource "kubernetes_deployment" "nodefrontend-deployment" {
   metadata {
     name = "nodefrontend-deployment"
     labels = {
